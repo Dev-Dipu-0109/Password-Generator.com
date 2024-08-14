@@ -1,0 +1,85 @@
+body {
+    font-family: Jetbrains Mono, Menio, Monaco, "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff23ab, #ff23ab, #ae00ff, #ae00ff);
+}
+
+.container {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.generator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#password {
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#copy {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#copy:hover {
+    background-color: #4b4b8b;
+}
+
+.settings,
+.options {
+    margin-bottom: 20px;
+}
+
+#length {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 10px;
+    text-align:initial ;
+    
+}
+
+button#generate {
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+button#generate:hover {
+    background-color: #008a62;
+}
